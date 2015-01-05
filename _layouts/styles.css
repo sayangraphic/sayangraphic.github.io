@@ -1,0 +1,5 @@
+{% include assets/css/bootstrap.min.css %}
+{% include assets/css/font-awesome.min.css %}
+{% include assets/css/fonts.min.css %}
+{% include assets/css/style.css %}
+{% comment %} include assets/css/agency.css {% endcomment %}
