@@ -1,4 +1,3 @@
-/*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -173,18 +172,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-}
-
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-collapse {
