@@ -3,3 +3,32 @@ body {
   unicode-bidi: embed;
   font-family: BYekan,Arial,Helvetica,sans-serif;
 }
+
+.img-center {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+img.lazy {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
+@media(min-width:768px) {
+  .navbar-default, .navbar-brand {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+  .navbar-default.navbar-fat {
+    padding: 25px 0;
+    border: 0;
+    background-color: rgba(34, 34, 34, 0.3);
+  }
+
+  .navbar-default.navbar-fat .navbar-brand {
+    font-size: 2em;
+  }
+}
