@@ -4,6 +4,10 @@ body {
   font-family: BYekan,Arial,Helvetica,sans-serif;
 }
 
+.img-responsive {
+    width: 100%;
+}
+
 .img-center {
   margin: 0 auto;
 }
