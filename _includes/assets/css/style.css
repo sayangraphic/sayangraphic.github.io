@@ -16,7 +16,78 @@ img.lazy {
   transition: opacity .3s ease-in;
 }
 
+header {
+  text-align: center;
+  color: #fff;
+}
+
+.home header {
+  background: url('/img/header-bg.jpg') no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+header .intro-text .intro-heading {
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+header .intro-text div span {
+  padding: 0 1em;
+  background-color: rgba(0,0,0,.6);
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+section h3.section-subheading {
+  margin-bottom: 75px;
+  text-transform: none;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
 @media(min-width:768px) {
+  .home header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  header .intro-text .intro-lead-in {
+    font-size: 30px;
+  }
+
+  header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    font-size: 60px;
+  }
+
+  section {
+    padding: 150px 0;
+  }
+
   .navbar-default, .navbar-brand {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
