@@ -1,4 +1,5 @@
 body {
+  visibility: visible !important;
   direction:rtl;
   unicode-bidi: embed;
   font-family: BYekan,Arial,Helvetica,sans-serif;
@@ -23,7 +24,7 @@ header {
 }
 
 .home header {
-  background: url('/img/header-bg.jpg') no-repeat fixed center center;
+  background: url('/img/home-banner.jpg') no-repeat fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
