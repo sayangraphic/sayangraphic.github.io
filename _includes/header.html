@@ -1,16 +1,9 @@
 <!-- Header -->
-<header>
+<section>
     <div class="container">
-        <div class="intro-text">
-            <div class="row">
-                <h3>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h3>
-            </div><!-- /row -->
-        </div>
+        <div class="row">
+            <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+        </div><!-- /row -->
     </div>
-</header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+</section>
 
