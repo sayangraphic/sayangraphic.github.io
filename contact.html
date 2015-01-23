@@ -2,51 +2,60 @@
 layout: page
 title: تماس
 permalink: /contact/
-weight: 4
+weight: 5
 ---
 
 <div id="contactwrap"></div>
 
-<div class="container mtb">
+<div class="container mtb contact">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Just Get In Touch!</h4>
-            <div class="hline"></div>
-                <p>{{ site.about }}</p>
-                <form role="form">
-                  <div class="form-group">
-                    <label for="InputName1">Your Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputSubject1">Subject</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="message1">Message</label>
-                    <textarea class="form-control" id="message1" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-theme">Submit</button>
-                </form>
+            <h4>افکار و نظراتتون را با ما در میان بگذارید.</h4>
+            <hr/>
+            <form class="" action="#">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="name">نام و نام خانوادگی:</label>
+                        <input id="name" name="name" type="text" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"> آدرس ايميل:</label>
+                        <input id="email" name="email" type="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">موضوع:</label>
+                        <select name="subject" id="subject" class="form-control" required>
+                            <option value="">« انتخاب کنید »</option>
+                            <option value="انتقاد و پیشنهاد">انتقاد و پیشنهاد</option>
+                            <option value="مشاوره">مشاوره</option>
+                            <option value="پیشنهاد همکاری">پیشنهاد همکاری</option>
+                            <option value="سایر موضوعات">سایر موضوعات</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">متن پیام:</label>
+                        <textarea class="form-control" id="message" name="message" rows="7" required></textarea>
+                    </div>
+
+                    <input type="hidden" id="_subject" name="_subject" value="تماس: " />
+                    <input type="text" id="_gotcha" name="_gotcha" style="display:none" />
+
+                    <div class="form-group">
+                        <div id="success"></div>
+                        <input type="submit" class="btn btn-success" value="ارسال" />
+                    </div>
+                </fieldset>
+            </form>
         </div><! --/col-lg-8 -->
 
         <div class="col-lg-4">
-            <h4>Our Address</h4>
-            <div class="hline"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-                <p>
-                    Email: {{ site.email }}<br/>
-                    Tel: {{ site.tel }}
-                </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h4>اطلاعات تماس</h4>
+            <hr/>
+            <p><strong>آژانس تبلیغاتی سایان گرافیک</strong></p>
+            <p>ایمیل: {{ site.email }}</p>
+            <p>تلفن: {{ site.tel }}</p>
         </div>
     </div><! --/row -->
 </div><! --/container -->

@@ -485,24 +485,3 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-::-moz-selection {
-    text-shadow: none;
-    background: #{{ site.color.primary }};
-}
-
-::selection {
-    text-shadow: none;
-    background: #{{ site.color.primary }};
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #{{ site.color.primary }};
-}

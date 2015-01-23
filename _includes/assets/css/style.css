@@ -21,14 +21,15 @@ img.lazy {
 header {
   text-align: center;
   color: #fff;
-}
-
-.home header {
-  background: url('/img/home-banner.jpg') no-repeat fixed center center;
+  background: no-repeat fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.home header {
+  background-image: url('/img/home-banner.jpg');
 }
 
 header .intro-text {
