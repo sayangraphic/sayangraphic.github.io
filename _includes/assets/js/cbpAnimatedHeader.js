@@ -16,12 +16,14 @@ var cbpAnimatedHeader = (function() {
 		changeHeaderOn = 200;
 
 	function init() {
-		window.addEventListener( 'scroll', function( event ) {
-			if( !didScroll ) {
-				didScroll = true;
-				setTimeout( scrollPage, 250 );
-			}
-		}, false );
+		if (document.addEventListener) {
+			document.addEventListener('scroll', function (event) {
+				if (!didScroll) {
+					didScroll = true;
+					setTimeout(scrollPage, 250);
+				}
+			}, false);
+		}
 	}
 
 	function scrollPage() {
