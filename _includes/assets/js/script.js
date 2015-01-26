@@ -2,7 +2,7 @@ $(function() {
     $(".contact select#subject").on('change', function() {
         $("input#_subject").val("تماس: " + $(this).find("option:selected").text() + '');
     });
-    $(".contact form").on('submit', function() {
+    $(".contact form").on('submit', function(event) {
         event.preventDefault();
 
         $.ajax({
