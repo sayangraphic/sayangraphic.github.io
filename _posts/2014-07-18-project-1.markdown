@@ -1,6 +1,6 @@
 ---
-title: Dreams
-subtitle: لوگویی بی نظیر
+title:طراحی نشانه برای شرکت معماری بعد چهارم 
+subtitle: طراحی لوگو
 layout: default
 modal-id: 1
 date: 2014-07-18
