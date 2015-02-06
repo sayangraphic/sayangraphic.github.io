@@ -73,6 +73,14 @@ section h3.section-subheading {
   font-weight: 400;
 }
 
+section#services a:hover {
+  color: #4f0096;
+}
+
+p {
+  text-align: justify;
+}
+
 @media(min-width:768px) {
   .home header .intro-text {
     margin-top: 250px;
