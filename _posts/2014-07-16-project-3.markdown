@@ -1,5 +1,5 @@
 ---
-title: بنر برای وب سایت طراحان معاصر
+title: بنر وب سایت طراحان معاصر
 subtitle: وب دیزاین
 layout: default
 modal-id: 3
