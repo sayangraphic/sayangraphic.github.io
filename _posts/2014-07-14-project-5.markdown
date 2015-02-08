@@ -1,6 +1,6 @@
 ---
 title: کارخانه تولید فیلتر و قطعات خودرو
-subtitle:عکاسی و تبلیغات
+subtitle: عکاسی و تبلیغات
 layout: default
 modal-id: 5
 date: 2014-07-14

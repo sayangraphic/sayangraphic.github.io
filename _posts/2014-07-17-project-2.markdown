@@ -1,6 +1,6 @@
 ---
 title: طراحی بسته بندی بیرون بر رستوران ایتالیایی روژه
-subtitle:طراحی بسته بندی
+subtitle: طراحی بسته بندی
 layout: default
 modal-id: 2
 date: 2014-07-17
