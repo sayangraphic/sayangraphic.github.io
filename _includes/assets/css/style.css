@@ -55,6 +55,14 @@ header .intro-text div span {
   padding: 0 1em;
 }
 
+footer{
+  background-color: #340063;
+}
+footer .copyright{
+  color: #ddd;
+  font-size: 80%;
+}
+
 section {
   padding: 100px 0;
 }
