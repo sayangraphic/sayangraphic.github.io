@@ -51,15 +51,11 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/pages/%D8%B3%D8%A7%DB%8C%D8%A7%D9%86-%DA%AF%D8%B1%D8%A7%D9%81%DB%8C%DA%A9/1477311649211617
+  - title: instagram
+    url: http://instagram.com/sayangraphic/
 
 # Postal address (add as many lines as necessary)
 address:
